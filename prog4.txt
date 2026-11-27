@@ -1,0 +1,7 @@
+Step 1: Git init
+Step 2: Open the Git hub and Sign in using gmail
+Step 3: Create a new repo by giving name and description and click create repo
+Step4: Upload a txt file from your local machine for the newly created repo and commit changes
+Step 5: Copy the URL from by clicking on Code button.
+Step 6: Go to Git bash terminal
+Step 7: Git clone right click and paste the copied URL
