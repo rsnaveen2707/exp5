@@ -5,3 +5,23 @@ Step4: Upload a txt file from your local machine for the newly created repo and 
 Step 5: Copy the URL from by clicking on Code button.
 Step 6: Go to Git bash terminal
 Step 7: Git clone right click and paste the copied URL
+
+
+Stepwise Execution of Exp 5:
+Step 1: Git init (To initialise the git repository)
+Step 3: mkdir program5 (To create directory named Program 5)
+Follow the same steps from program 4 to clone the repository
+Open Notepad edit it as “edit 1” save and close , name the file as app.txt, upload the same to remote repo and then commit changes .
+Step 4: Git clone pastelink
+Step 5: cd clone5(name of the cloned repo to be added to the working branch)
+Step 6 : echo “Edit 2” >> app.txt (editing the cloned app.txt file locally)
+Step 7: git add . (adds the file)
+Step 8: git commit -m “Save Local changes to app.txt”
+Step 9: git log –oneline (displays the changes done till now)
+Step 10:git fetch origin (Fetches changes from remote repo to local)
+Step 11: git log –oneline –graph –all
+Step 12: git rebase origin/main
+Step 13: Notepad app.txt
+Step 14: git add app.txt
+Step 15: git rebase –continue (to rebase all the changes from local to remote)
+If any error message appears, open the app.txt file remove all the unwanted symbols , save and close
